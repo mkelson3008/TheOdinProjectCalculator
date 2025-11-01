@@ -17,3 +17,17 @@ function divide(a, b) {
     return a / b;
 }
 
+function operate(op1, op2, op) {
+    switch (op) {
+        case "+":
+            return add(op1, op2);
+        case "-":
+            return subtract(op1, op2);
+        case "*":
+            return multiply(op1, op2);
+        case "/":
+            return divide(op1, op2);
+        default:
+            return null;
+    }
+}
