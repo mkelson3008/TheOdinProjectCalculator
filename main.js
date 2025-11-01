@@ -1,3 +1,5 @@
+let operand1, operand2, operator;
+
 function add(a, b) {
     return a + b;
 }
